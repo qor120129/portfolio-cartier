@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartier</title>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="./image/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./image/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./image/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./image/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./image/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./image/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./image/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./image/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./image/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./image/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./image/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./image/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./image/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./image/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="cartier" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://seungjin.dothome.co.kr/cartier/" />
+  <meta property="og:image" content="http://seungjin.dothome.co.kr/cartier/mobile/image/loading_1.jpg" />
+  <meta property="og:description" content="cartier portfolio" />
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script defer src="js/jquery.cookie.js"></script>
+  <script defer src="js/main.js"></script>
+
+</head>
+
+<body>
+  <div class="loading d_aic">
+    <div class="loading_bg_wrapper d_flex">
+      <div class="loading_bg">loading
+        <image class="lodig_logo" src="./image/logo.svg" alt="logo.svg">
+        <p class="tac">Clash Limited <br> The capsule collection </p>
+      </div>
+      <!-- <image class="loading_bg" src="./image/loading.jpg" alt="loading.jpg"> -->
+    </div>
+  </div>
+  <header>
+    <div class="header_top d_flex d_aic">
+      <button class="sprite menu_btn">menu</button>
+      <h1 class="logo"><a href="./index.html">Logo</a></h1>
+      <ul class="d_flex">
+        <li><button class="sprite search">search</button></li>
+        <li><a href="#" class="sprite cart" data-cart="3">cart</a></li>
+      </ul>
+    </div>
+    <form action="#" method="GET" class=" search_form d_flex d_aic d_jcc">
+      <div class="d_flex d_aic">
+        <label for="search" class="hidden">search</label>
+        <input type="search" name="search" id="search" placeholder="검색어를 입력하세요.">
+        <button>search</button>
+      </div>
+    </form>
+  </header>
+  <section class="shopping_bag d_flex d_jcsb">
+    <div class="header_top d_flex d_aic">
+      <h2 class="sub_tt">shopping bag</h2>
+      <button class="sprite close">close</button>
+    </div>
+    <!-- <div class="d_flex d_jcsb"> -->
+    <form class="d_flex">
+      <p class="cart_num"> 4 Items </p>
+      <fieldset>
+        <div class="field d_flex d_aic line">
+          <image src="./image/category_2.jpg" alt="">
+          <div class="cart_info d_flex d_jcsb">
+            <h3 class="categorie_tt">LOVE WEDDING BAND</h3>
+            <h4 class="color_tt">reose gold</h4>
+            <div class="option">
+              <div class="size d_flex d_aic d_jcsb">
+                <span class="size_option">size</span>
+                <p class="d_flex d_aic">
+                  <span class="number">9</span>
+                </p>
+              </div>
+              
+              <div class="qty d_flex d_aic d_jcsb">
+                <span class="price">￦1,470,000</span>
+                <p class="d_flex d_aic">
+                <span class="sprite minus">minus</span>
+                <span class="number">1</span>
+                <span class="sprite plus">plus</span>
+                </p>
+              </div>
+            </div>
+            <span class="sprite close"></span>
+          </div>
+        </div>
+        <div class="field d_flex d_aic line">
+          <image src="./image/category_5.jpg" alt="">
+          <div class="cart_info d_flex d_jcsb">
+            <h3 class="categorie_tt">Juste un Clou
+              earrings</h3>
+            <h4 class="color_tt">yellow gold</h4>
+            <div class="option">
+              <div class="qty d_flex d_aic d_jcsb">
+                <span class="price">￦3,610,000</span>
+                <p class="d_flex d_aic">
+                  <span class="sprite minus">minus</span>
+                  <span class="number">1</span>
+                  <span class="sprite plus">plus</span>
+                </p>
+              </div>
+            </div>
+            <span class="sprite close"></span>
+          </div>
+        </div>
+        <div class="field d_flex d_aic line">
+          <image src="./image/category_7.jpg" alt="">
+          <div class="cart_info d_flex d_jcsb">
+            <h3 class="categorie_tt">Juste un Clou
+              bracelet</h3>
+            <h4 class="color_tt">reose gold, diamonds</h4>
+            <div class="option">
+              <div class="size d_flex d_aic d_jcsb">
+                <span class="size_option">size</span>
+                <p class="d_flex d_aic">
+                  <span class="number">16</span>
+                </p>
+              </div>
+              <div class="qty d_flex d_aic d_jcsb">
+                <span class="price">￦8,700,000</span>
+                <p class="d_flex d_aic">
+                  <span class="sprite minus">minus</span>
+                  <span class="number">1</span>
+                  <span class="sprite plus">plus</span>
+                </p>
+              </div>
+            </div>
+            <span class="sprite close"></span>
+          </div>
+        </div>
+        <div class="field d_flex d_aic line">
+          <image src="./image/category_12.jpg" alt="">
+          <div class="cart_info d_flex d_jcsb">
+            <h3 class="categorie_tt">Clash de Cartier
+              necklace</h3>
+            <h4 class="color_tt">reose gold</h4>
+            <div class="option">                    
+              <div class="qty d_flex d_aic d_jcsb">
+                <span class="price">￦3,140,000</span>
+                <p class="d_flex d_aic">
+                  <span class="sprite minus">minus</span>
+                  <span class="number">1</span>
+                  <span class="sprite plus">plus</span>
+                </p>
+              </div>
+            </div>
+            <span class="sprite close"></span>
+          </div>
+        </div>
+        <div class="field d_flex d_aic line">
+          <image src="./image/category_10.jpg" alt="">
+          <div class="cart_info d_flex d_jcsb">
+            <h3 class="categorie_tt">LOVE necklace</h3>
+            <h4 class="color_tt">white gold</h4>
+            <div class="option">
+              <div class="qty d_flex d_aic d_jcsb">
+                <span class="price">￦3,190,000</span>
+                <p class="d_flex d_aic">
+                  <span class="sprite minus">minus</span>
+                  <span class="number">1</span>
+                  <span class="sprite plus">plus</span>
+                </p>              </div>
+            </div>
+            <span class="sprite close"></span>
+          </div>
+        </div>
+      </fieldset>
+      <div class="total">
+        <div class="d_flex d_aic d_jcsb">
+          <h4>배송비</h4>
+          <h5>0</h5>
+        </div>
+        <div class="total_price d_flex d_aic d_jcsb">
+          <h4>합계(부가세 포함)</h4>
+          <h5>￦20,160,000</h5>
+        </div>
+      </div>
+    </form>
+    <button class="cart_btn big_btn">check out</button>
+    <!-- </div> -->
+  </section>
+  <main class="pd_t">
+    <section class="main_slide_wrapper tac">
+      <h2 class="hidden">main_slide</h2>
+      <div class="swiper main_slide">
+        <!-- Additional required wrapper -->
+        <ul class="swiper-wrapper">
+          <!-- Slides -->
+          <li class="swiper-slide">
+            <a href="#">banner1</a>
+          </li>
+          <li class="swiper-slide slide2">
+            <a href="#">banner2</a>
+          </li>
+          <li class="swiper-slide slide3">
+            <a href="#">banner3</a>
+          </li>
+          <li class="swiper-slide slide4">
+            <a href="#">banner4</a>
+          </li>
+        </ul>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-scrollbar"></div>-->
+      </div>
+    </section>
+    <section class="brand_slide_wrapper container line tac">
+      <h2 class="main_tt">the iconic designs</h2>
+      <div class="swiper brand_slide">
+        <!-- Additional required wrapper -->
+        <ul class="swiper-wrapper ">
+          <!-- Slides -->
+          <li class="swiper-slide">
+            <a href="#">
+              <image src="./image/LOVE.png" alt="">
+              <h3 class="main_sub_tt">love</h3>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <image src="./image/SANTOS.png" alt="">
+              <h3 class="main_sub_tt">santos</h3>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <image src="./image/JUC.png" alt="">
+              <h3 class="main_sub_tt">juste un clou</h3>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <image src="./image/BB.png" alt="">
+              <h3 class="main_sub_tt">ballon bleu</h3>
+            </a>
+          </li>
+        </ul>
+        <!-- If we need pagination -->
+        <div class="swiper-button-next sprite brand_next_btn"></div>
+        <div class="swiper-button-prev sprite brand_prev_btn"></div>
+        <div class="swiper-pagination brand_pagination"></div>
+      </div>
+      <a href="#" class="small_btn">DISCOVER MORE</a>
+    </section>
+    <section class="double container line tac">
+      <h2 class="main_tt">new product</h2>
+      <div class="new_product">
+        <image src="./image/new_product_1.jpg" alt="new_product" class="big_img">
+        <article class="small_imgs d_flex d_jcsb">
+          <h2 class="hidden">double new product</h2>
+          <image src="./image/new_product_2.jpg" alt="">
+          <image src="./image/new_product_3.jpg" alt="">
+          <image src="./image/new_product_4.jpg" alt="">
+        </article>
+        <div>
+          <h3 class="main_sub_tt">DOUBLE C DE CARTIER</h3>
+          <h4 class="main_sub_desc">새로운 버전의 두블르 쎄 드 까르띠에 백을 만나보세요</h4>
+          <a href="#" class="small_btn">DISCOVER MORE</a>
+        </div>
+      </div>
+    </section>
+    <section class="tank container line tac">
+      <div class="new_product tank">
+        <image src="./image/new_product_5.png" alt="new_product" class="big_img">
+        <article class="small_imgs d_flex d_jcsb">
+          <h2 class="hidden">tank new product</h2>
+          <image src="./image/new_product_6.png" alt="">
+          <image src="./image/new_product_7.png" alt="">
+          <image src="./image/new_product_8.png" alt="">
+        </article>
+        <div>
+          <h3 class="main_sub_tt">tank</h3>
+          <h4 class="main_sub_desc">시간이 흘러도 변치 않는 우아함, 탱크를 만나보세요</h4>
+          <a href="#" class="small_btn">DISCOVER MORE</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container line tac">
+      <h2 class="main_tt">CONNECT WITH CARTIER</h2>
+      <div class="sns_link d_flex d_aic">
+        <a href="#" class="sprite insta">insta</a>
+        <a href="#" class="sprite facebook">facebook</a>
+        <a href="#" class="sprite pinterest">pinterest</a>
+      </div>
+      <article class="connect_img d_flex d_jcsb">
+        <h2 class="hidden">connect image </h2>
+        <a href="#"><image src="./image/connect_1.jpg" alt="connect_1"></a>
+        <a href="#"><image src="./image/connect_2.jpg" alt="connect_2"></a>
+        <a href="#"><image src="./image/connect_3.jpg" alt="connect_3"></a>
+        <a href="#"><image src="./image/connect_4.jpg" alt="connect_4"></a>
+        <a href="#"><image src="./image/connect_5.jpg" alt="connect_5"></a>
+        <a href="#"><image src="./image/connect_6.jpg" alt="connect_6"></a>
+       
+      </article>
+    </section>
+  </main>
+  <footer class="small_container">
+    <ul class="footer_list">
+      <li>서비스 <span class="sprite plus">plus</span>
+        <ul>
+          <li> <a href="#">무료배송</a></li>
+          <li><a href="#">교환&반품</a></li>
+          <li><a href="#">무료 선물 포장</a></li>
+        </ul>
+      </li>
+      <li>고객지원 <span class="sprite plus">plus</span>
+        <ul>
+          <li><a href="#">자주하는 질문</a> </li>
+          <li><a href="#">문의하기</a> </li>
+          <li><a href="#">온라인 구매 가이드</a> </li>
+          <li><a href="#">연락하기 82 1566 7277</a> </li>
+        </ul>
+      </li>
+      <li>정보 <span class="sprite plus">plus</span>
+        <ul>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인 정보 정책</a></li>
+          <li><a href="#">판매 약관</a></li>
+          <li><a href="#">채용 정보</a></li>
+        </ul>
+      </li>
+      <li>About Us <span class="sprite plus">plus</span>
+        <ul>
+          <li>위치 찾기</li>
+          <li>사이트 맵</li>
+          <li>크레딧</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="footer_info">
+      <span> ㈜ 리치몬트 코리아 </span>
+      <span> 대표이사: 이진원 </span> <br>
+      <span> 서울 중구 퇴계로 100 스테이트타워 남산 (04631) </span><br>
+      <span> 개인정보보호책임자: 서신강 </span><br>
+      <span> 호스팅 서비스: Richemont International SA </span><br>
+      <span> 까르띠에 컨택센터: 1566-7277 </span>
+      <span> contact.korea@cartier.com </span><br>
+      <span> 사업자 등록번호: 102-81-41612 통신판매 신고번호: 2017-서울중구-1264 (사업자 정보확인) </span>
+      <span>KCP에서 제공하는 구매안전 서비스(에스크로)에 가입하여 안전한 거래를 보장하고 있습니다."가입사실확인" </span>
+    </div>
+  </footer>
+  <aside class="d_flex d_jcsb">
+    <div class="header_top d_flex d_aic">
+      <h2 class="logo"><a href="./index.html">Logo</a></h2>
+      <button class="sprite close">close</button>
+    </div>
+    <ul class="aside_category">
+      <li>주얼리 <span class="sprite plus">plus</span>
+        <ul>
+          <li><a href="./category.html">모두보기</a></li>
+          <li><a href="#">반지</a></li>
+          <li><a href="#">팔찌</a></li>
+          <li><a href="#">목걸이</a></li>
+          <li><a href="#">귀걸이</a></li>
+        </ul>
+      </li>
+      <li>시계 <span class="sprite plus">plus</span>
+        <ul>
+          <li><a href="#">모두보기</a></li>
+          <li><a href="#">여성용</a></li>
+          <li><a href="#">남성용</a></li>
+        </ul>
+      </li>
+      <li>웨딩 &amp; 다이아몬드링 <span class="sprite plus">plus</span>
+        <ul>
+          <li><a href="#">모두보기</a></li>
+          <li><a href="#">여성용</a></li>
+          <li><a href="#">남성용</a></li>
+        </ul>
+      </li>
+      <li>라이프스타일 <span class="sprite plus">plus</span>
+        <ul>
+          <li><a href="#">패션 액세서리</a></li>
+          <li><a href="#">향수</a></li>
+          <li><a href="#">안경</a></li>
+        </ul>
+      </li>
+      <li>가방 &amp; 가죽소품 <span class="sprite plus">plus</span>
+        <ul>
+          <li><a href="#">여성 가방</a></li>
+          <li><a href="#">남성 가방</a></li>
+          <li><a href="#">지갑</a></li>
+          <li><a href="#">벨트</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="aside_category_bottom">
+      <ul class="aside_quick_links">
+        <li class="d_flex d_aic"><span class="sprite mypage">mypage</span><a href="./login.html">마이페이지</a></li>
+        <li class="d_flex d_aic"><span class="sprite whish">whish</span><a href="#">위시리스트</a></li>
+        <li class="d_flex d_aic"><span class="sprite service">service</span><a href="#">서비스</a></li>
+        <li class="d_flex d_aic"><span class="sprite store">store</span><a href="#">매장찾기</a></li>
+        <li class="d_flex d_aic"><span class="sprite call">call</span><a href="#">고객 센터 +82 1566 7277</a></li>
+      </ul>
+    </div>
+  </aside>
+  <div class="sprite top">TOP</div>
+
+</body>
+
+</html>
